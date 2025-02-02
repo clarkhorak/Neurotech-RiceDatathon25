@@ -17,6 +17,10 @@ The Submission.csv file contains the the model predictions for the test set.
   - `band_based_training.py`: Script for training band-based models.
   - `df_sorted_columns.json`: JSON file with sorted column names.
 
+- **Explainability/**: Contains scripts for model explainability.
+  - `shap_explainability.py`: Script for generating SHAP explanations for model predictions.
+  - `lime_explainability.py`: Script for generating LIME explanations for model predictions.
+
 - **Feature_Selection/**: Contains scripts for feature selection.
   - `hier_nn.py`: Hierarchical feature selection using neural networks.
   - `hier_xg.py`: Hierarchical feature selection using XGBoost.
