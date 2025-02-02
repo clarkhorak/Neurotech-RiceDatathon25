@@ -46,18 +46,18 @@ To replicate the results of this project, follow these steps:
     - Run the `Missing_data_imputation.py` script to handle missing data.
 
 2. **Feature Selection**:
-    - Run the `hier_nn.py` or `hier_xg.py` scripts in the [Feature_Selection](http://_vscodecontentref_/1) directory to perform hierarchical feature selection and select the best threshold.
+    - Run the `hier_nn.py` or `hier_xg.py` scripts in the [Feature_Selection](Feature_Selection) directory to perform hierarchical feature selection and select the best threshold.
 
 3. **Model Training**:
-    - For machine learning models, run the `model_selection.py` script in the [ML_models](http://_vscodecontentref_/2) directory, to get the best model based on cross-validation.
-    - For neural network models, run the `NN_train.py` script in the [NN_model](http://_vscodecontentref_/3) directory.
-    - For PCA models, run the `pca_train.py` script in the [PCA_model](http://_vscodecontentref_/4) directory.
+    - For machine learning models, run the `model_selection.py` script in the [ML_models](ML_models) directory, to get the best model based on cross-validation.
+    - For neural network models, run the `NN_train.py` script in the [NN_model](NN_model) directory.
+    - For PCA models, run the `pca_train.py` script in the [PCA_model](PCA_model) directory.
 
 4. **Hyperparameter Tuning**:
     - Run the `optuna_ml.py` or `optuna_tune.py` scripts in the `Hyperparameter_tuning` directory to perform hyperparameter tuning using Optuna.
 
 5. **Model Inference**:
-    - Run the `inference.py` script in the [ML_models](http://_vscodecontentref_/5) directory for model inference.
+    - Run the `inference.py` script in the [ML_models](ML_models) directory for model inference.
 
 *For testing diffeent models, hyperparameter tuning and feature selection, we dropped the nan values instead of imputing them. But for the final submission model , we imputed the nan values and used the best model for inference.*
 
